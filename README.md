@@ -10,8 +10,7 @@ You are free to use the codes for non-commercial purposes.
 For questions or suggestions, feel free to send an email to n.f.zaugg@uu.nl.
 
 @article{zauggVolParam,
-title={Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces},
-author={Zaugg, Nicola F. and Perotti, Leonardo and Grzelak, Lech A.},
-journal={arXiv:2411.04041},
-year = {2024}
-}
+title={Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces},  
+author={Zaugg, Nicola F. and Perotti, Leonardo and Grzelak, Lech A.},  
+journal={arXiv:2411.04041},  
+year = {2024}}
