@@ -14,3 +14,5 @@ title={Volatility Parametrizations with Random Coefficients: Analytic Flexibilit
 author={Zaugg, Nicola F. and Perotti, Leonardo and Grzelak, Lech A.},  
 journal={arXiv:2411.04041},  
 year = {2024}}
+
+![image](https://github.com/user-attachments/assets/b7c4d968-0f6f-4b9a-8d60-4a87e3e05416)
