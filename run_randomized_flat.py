@@ -1,9 +1,11 @@
 from datetime import date
+
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
 import numpy as np
-from randomizations.rand_flat import RandomizedFlatModel
+from matplotlib import rcParams
+
 from general.util import imply_volatility
+from randomizations.rand_flat import RandomizedFlat
 
 """
 This simple example runs the flat randomization to produce a volatility smile with two parameters. 
@@ -31,16 +33,16 @@ if __name__ == "__main__":
 
     # Run two randomization with parameters as
     for i, params in enumerate(rand_params):
-        model = RandomizedFlatModel(params_rand=params, n_col_points=4)
-        prices = model.prices(spot, k, t, r)
+        randomization = RandomizedFlat(params_rand=params, n_col_points=4)
+        prices = randomization.prices(spot, k, t, r)
 
         # Reference implied volatilites using Brent
         ivs_p = imply_volatility(prices, spot, k, t, r, 0.3)
 
         # Expansion IVs for different orders
-        ivs_approx2 = np.array(model.ivs(spot, k, t, r, 2))
-        ivs_approx4 = np.array(model.ivs(spot, k, t, r, 4))
-        ivs_approx6 = np.array(model.ivs(spot, k, t, r, 6))
+        ivs_approx2 = np.array(randomization.ivs(spot, k, t, r, 2))
+        ivs_approx4 = np.array(randomization.ivs(spot, k, t, r, 4))
+        ivs_approx6 = np.array(randomization.ivs(spot, k, t, r, 6))
 
         # Plot all the results
         axs[i].set_title(r"Randomized Flat Volatility: $(\mu,\nu)=$" + f"{params[0],params[1]}", size=20)

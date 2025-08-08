@@ -1,6 +1,5 @@
 import numpy as np
-from scipy.optimize import minimize
-from scipy.optimize import newton
+from scipy.optimize import minimize, newton
 
 
 def calibration_hagan(K, t, iv, f, beta, iv_atm):

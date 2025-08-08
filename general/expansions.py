@@ -1,7 +1,6 @@
 import numpy as np
 from scipy.stats import norm
 
-
 ##### BASE CLASS TO CALCULATE EXPANSION POLYNOMIALS #####
 
 

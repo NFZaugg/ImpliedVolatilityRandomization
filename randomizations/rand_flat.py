@@ -6,7 +6,7 @@ from general.expansions import get_sigma_0, get_sigma_approx
 from general.util import black_scholes
 
 
-class RandomizedFlatModel(BaseModel):
+class RandomizedFlat(BaseModel):
     # Randomization class for a lognormal randomization of a flat black scholes surface
     params_rand: tuple
     n_col_points: int

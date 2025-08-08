@@ -1,6 +1,6 @@
 from math import factorial
-import numpy as np
 
+import numpy as np
 
 ##### BASE CLASS TO CALCULATE COLLOCATION POINTS #####
 

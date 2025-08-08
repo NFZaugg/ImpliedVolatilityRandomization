@@ -2,8 +2,8 @@ import numpy as np
 from pydantic import BaseModel
 
 from general.collocation import get_col_points
-from general.hagan import hagan_implied_volatility
 from general.expansions import get_sigma_0, get_sigma_approx
+from general.hagan import hagan_implied_volatility
 from general.util import black76
 
 nCol = 2
