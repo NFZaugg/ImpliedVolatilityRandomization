@@ -9,10 +9,15 @@ The three main run files implement three cases of randomizations of parametrizat
 You are free to use the codes for non-commercial purposes. 
 For questions or suggestions, feel free to send an email to n.f.zaugg@uu.nl.
 
-@article{zauggVolParam,
-title={Volatility Parametrizations with Random Coefficients: Analytic Flexibility for Implied Volatility Surfaces},  
-author={Zaugg, Nicola F. and Perotti, Leonardo and Grzelak, Lech A.},  
-journal={arXiv:2411.04041},  
-year = {2024}}
+@article{zaugg2025volatility,
+  title={Volatility parametrizations with random coefficients: Analytic flexibility for implied volatility surfaces},
+  author={Zaugg, Nicola F and Perotti, Leonardo and Grzelak, Lech A},
+  journal={SIAM Journal on Financial Mathematics},
+  volume={16},
+  number={4},
+  pages={1374--1411},
+  year={2025},
+  publisher={SIAM}
+}
 
 ![image](https://github.com/user-attachments/assets/b7c4d968-0f6f-4b9a-8d60-4a87e3e05416)
